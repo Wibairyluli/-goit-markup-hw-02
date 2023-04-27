@@ -1,0 +1,105 @@
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --primary-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --text-color-hover: #4d5ae5;
+  --acent-color: #404bbf;
+  --background-color: #ffffff;
+  --background-btn-filters: #f4f4fd;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--secondary-text-color);
+  background-color: var(--background-color);
+}
+
+/* Navigation */
+.navigation {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.menu .link:visited {
+  color: var(--primary-text-color);
+}
+/* Logo */
+.logo-link {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.web-color {
+  color: var(--text-color-hover);
+}
+.logo-color {
+  color: var(--primary-text-color);
+}
+/* adress */
+.phone-mail {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+.contact-phone {
+  color: var(--secondary-text-color);
+}
+.contact-mail {
+  color: var(--secondary-text-color);
+}
+/* main */
+/* selection 1 */
+.selection-one
+.big-header {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--background-color);
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+/* Button order Serves */
+.order-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
+  position: absolute;
+  width: 169px;
+  height: 55.25px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  text-align: center;
+  color: var(--background-color);
+}
+.order-button:hover,
+.order-button:focus{
+  background-color: var(--acent-color);
+  color: var(--background-color);
+}
