@@ -164,8 +164,12 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-text-color);
+  line-height: 1.11;
 }
 /* selection4 */
+.team{
+  background-color:var(--background-btn-filters)
+}
 .header-team {
   font-family: 'Roboto';
   font-style: normal;
@@ -176,6 +180,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-text-color);
+  line-height: 1.1;
 }
 .name-team {
   font-family: 'Roboto';
