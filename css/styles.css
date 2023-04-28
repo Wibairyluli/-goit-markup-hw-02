@@ -180,7 +180,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-text-color);
-  line-height: 1.1;
+  line-height: 1.11;
 }
 .name-team {
   font-family: 'Roboto';
