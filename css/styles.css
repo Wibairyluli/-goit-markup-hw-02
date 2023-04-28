@@ -36,7 +36,7 @@ body {
 }
 /* Logo */
 .logo-link {
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -50,7 +50,7 @@ body {
 }
 .logo-color {
   color: var(--primary-text-color);
-  font-family: 'Raleway'sans-serif;
+  font-family: 'Raleway',sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
