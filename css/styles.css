@@ -23,6 +23,17 @@ body {
 }
 
 /* Navigation */
+.navigation {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.menu .link:visited {
+  color: var(--primary-text-color);
+}
 /* Logo */
 .logo-link {
   font-family: 'Raleway', sans-serif;
@@ -50,14 +61,14 @@ body {
   text-transform: uppercase;
   line-height: 1.17
 }
-.menu-list{
+.menu-link{
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-.menu-list:hover,
-.menu-list:focus{
+.menu-link:hover,
+.menu-link:focus{
   color: #404bbf;
 }
 /* adress */
