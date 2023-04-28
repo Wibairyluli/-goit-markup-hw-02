@@ -23,15 +23,6 @@ body {
 }
 
 /* Navigation */
-.navigation {
-  font-family: var(--primary-font);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-}
-
 /* Logo */
 .logo-link {
   font-family: 'Raleway', sans-serif;
