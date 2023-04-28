@@ -36,7 +36,7 @@ body {
 }
 /* Logo */
 .logo-link {
-  font-family: 'Raleway';
+  font-family: 'Raleway' sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -46,10 +46,11 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--text-color-hover);
+  line-height: 1.17
 }
 .logo-color {
   color: var(--primary-text-color);
-  font-family: 'Raleway';
+  font-family: 'Raleway'sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -58,6 +59,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  line-height: 1.17
 }
 /* adress */
 .phone-mail {
