@@ -344,4 +344,5 @@ cursor: pointer;
 .app-btn:hover,
 .design-btn:hover,
 .marketing-btn:hover,
-.web-btn:hover{ background-color: var(--acent-color);}
+.web-btn:hover{ background-color: var(--acent-color);
+color: var(--background-color);}
