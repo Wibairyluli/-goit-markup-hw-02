@@ -80,16 +80,13 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
-.contact-phone:hover,
-.contact-mail:hover,
-.contact-mail:focus,
-.contact-phone:focus{color: #404bbf;}
-.contact-phone {
+.contact-link:hover,
+.contact-link:hover{color: #404bbf;}
+
+.contact-link {
   color: var(--secondary-text-color);
 }
-.contact-mail {
-  color: var(--secondary-text-color);
-}
+
 /* main */
 /* selection 1 */
 .selection-one {
@@ -271,14 +268,7 @@ letter-spacing: 0.02em;
 color: var(--secondary-text-color);
 cursor: pointer;
 }
-.all-btn:focus,
-.app-btn:focus,
-.design-btn:focus,
-.marketing-btn:focus,
-.web-btn:focus,
-.all-btn:hover,
-.app-btn:hover,
-.design-btn:hover,
-.marketing-btn:hover,
-.web-btn:hover{ background-color: var(--acent-color);
+.portfolio-btn:focus,
+.portfolio-btn:hover
+{ background-color: var(--acent-color);
 color: var(--background-color);}
