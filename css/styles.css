@@ -272,3 +272,6 @@ cursor: pointer;
 .portfolio-btn:hover
 { background-color: var(--acent-color);
 color: var(--background-color);}
+.project-foto{
+  text-decoration: none;
+}
