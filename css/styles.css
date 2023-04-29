@@ -170,6 +170,9 @@ body {
 .team{
   background-color:var(--background-btn-filters)
 }
+.foto-team{
+  background-color:var(--background-color);
+}
 .header-team {
   font-family: 'Roboto';
   font-style: normal;
