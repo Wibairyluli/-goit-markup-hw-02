@@ -9,12 +9,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <title>site</title>
   </head>
 
 <body>
     <!-- !header-of-site -->
-    <header class="page-header">
+    <header class="page-header conteiner">
         <nav class="navigation">
             <a class="logo-link link" href="./index.html">Web<span class="logo-color">Studio</span></a>
             <ul class="menu list">
@@ -25,19 +26,22 @@
         </nav>
         <address class="phone-mail ">
             <ul class="adress list">
-                <li><a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="contact-link link contact-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a class="contact-link link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
     </header>
-    <main>
+    <main class="main">
         <!-- hero-image -->
         <section class="selection-one">
+            <div class="conteiner">
             <h1 class="big-header">Effective Solutions for Your Business</h1>
             <button class="order-button" type="button">Order Service</button>
+        </div>
         </section>
         <!-- Section2 -->
         <section class="our-skill">
+            <div class="conteiner">
             <h2 class="hidden-header" hidden>Selection2</h2>
             <ul class="skill-list list">
                 <li>
@@ -62,18 +66,21 @@
                         problem-solving.</p>
                 </li>
             </ul>
+        </div>
         </section>
         <!--Section3-->
         <section class="we-doing">
+            <div class="conteiner">
             <h2 class="doing-header">What are we doing</h2>
             <ul class="doing-list list">
-                <li><img src="./images/img1.jpg" alt="comp" width="360"></li>
-                <li><img src="./images/img2.jpg" alt="phonedisplay" width="360"></li>
-                <li><img src="./images/img3.jpg" alt="phone" width="360"></li>
+                <li class="foto-gadget"><img src="./images/img1.jpg" alt="comp" width="360"></li>
+                <li class="foto-gadget"><img src="./images/img2.jpg" alt="phonedisplay" width="360"></li>
+                <li class="foto-gadget"><img src="./images/img3.jpg" alt="phone" width="360"></li>
             </ul>
+        </div>
         </section>
         <!-- Section4 -->
-        <section class="team">
+        <section class="team section">
             <h2 class="header-team">Our Team</h2>
             <ul class="team-list list">
                 <li class="foto-team"><img src="./images/markguerrerro.jpg" alt="MarkGuerrerro" width="264">
